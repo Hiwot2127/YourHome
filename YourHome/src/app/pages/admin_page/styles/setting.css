@@ -1,0 +1,57 @@
+.admin-dashboard-container-right-bottom-container{
+    width:95%;
+    height:500px;
+    margin-left:2.5%;
+    margin-top:20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#users{
+    background-color:white;
+    color:#333;
+}
+
+.admin-login-card{
+    width:400px;
+    height:300px;
+    box-shadow:1px 1px 10px 2px rgba(0,0,0,0.2);
+    border-radius:10px;
+    border:solid 1px rgba(0,0,0,0.4);
+    margin-top:50px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    gap:5px;
+
+
+}
+.input-field {
+    width:80%;
+    height:40px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    margin-top:5px;
+}
+input{
+    height:40px;
+    text-indent:10px;
+    
+}
+.admin-login-title{
+    margin-bottom:20px;
+    color:#333;
+}
+.admin-login-btn{
+    background-color:hsl(290, 67%, 27%);
+    color: #ffffff;
+    padding: 13px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: calc(80% - 5px); /* Made the buttons equal width with a little gap */
+    font-size: 14px;
+    box-sizing: border-box;
+}

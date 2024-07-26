@@ -1,0 +1,10 @@
+.admin-dashboard-container-right-bottom-container{
+    width:95%;
+    height:500px;
+    margin-left:2.5%;
+    margin-top:20px;
+}
+#users{
+    background-color:white;
+    color:#333;
+}
